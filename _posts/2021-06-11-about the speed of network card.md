@@ -26,7 +26,7 @@ USB3.0接口的理论速度是5Gbps，也就是625MB/s，覆盖了2.5G网卡的�
 
 其实质量好的5类线跑万兆电口都没什么压力，更别提2.5G了。我知道很多家庭装修的时候忽略了弱电的走线，后期装宽带的工作人员无奈只能把一条8芯网线破开做成2个水晶头的情况，如下图：
 
-[shuijingtou.jpg](/images/posts/networkcard/shuijingtou.jpg)
+![shuijingtou.jpg](/images/posts/networkcard/shuijingtou.jpg)
 
 像这种情况，您基本和高速的局域网无缘了，这种4芯的水晶头连接的设备一律只能跑到百兆带宽，充其量12.5MB/s。
 
