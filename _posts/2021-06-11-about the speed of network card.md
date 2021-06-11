@@ -34,7 +34,7 @@ USB3.0接口的理论速度是5Gbps，也就是625MB/s，覆盖了2.5G网卡的�
 
 ### 四.测速的2块硬盘（上传盘和下载盘）必须是SSD才能达到280MB/s
 
-[harddiskspeed.png](/images/posts/networkcard/harddiskspeed.png)
+![harddiskspeed.png](/images/posts/networkcard/harddiskspeed.png)
 
 如图所示，当年，这些都是机械硬盘中的翘楚了，速度都不到200MB/s，时间到了2021年，可以买到的高端大容量硬盘比如10T氦气盘、12T西数拆机盘，最高速度已经可以上到280MB/s，可以达到2.5G网卡的实际速度。可是机械硬盘的速度不是恒定的，读写内圈的速度小于读写外圈的速度，这个道理大家应该懂得吧，所以这个最高速度是读写外圈测得的结果，要说均速，是远小于280MB/s的，这么一来，机械硬盘速度又成为了瓶颈。
 
