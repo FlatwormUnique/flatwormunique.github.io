@@ -26,7 +26,7 @@ USB3.0接口的理论速度是5Gbps，也就是625MB/s，覆盖了2.5G网卡的�
 
 其实质量好的5类线跑万兆电口都没什么压力，更别提2.5G了。我知道很多家庭装修的时候忽略了弱电的走线，后期装宽带的工作人员无奈只能把一条8芯网线破开做成2个水晶头的情况，如下图：
 
-[shuijingtou.jpg](/images/posts/network card/shuijingtou.jpg)
+[shuijingtou.jpg](/images/posts/networkcard/shuijingtou.jpg)
 
 像这种情况，您基本和高速的局域网无缘了，这种4芯的水晶头连接的设备一律只能跑到百兆带宽，充其量12.5MB/s。
 
@@ -34,7 +34,7 @@ USB3.0接口的理论速度是5Gbps，也就是625MB/s，覆盖了2.5G网卡的�
 
 ### 四.测速的2块硬盘（上传盘和下载盘）必须是SSD才能达到280MB/s
 
-[harddiskspeed.png](/images/posts/network card/harddiskspeed.png)
+[harddiskspeed.png](/images/posts/networkcard/harddiskspeed.png)
 
 如图所示，当年，这些都是机械硬盘中的翘楚了，速度都不到200MB/s，时间到了2021年，可以买到的高端大容量硬盘比如10T氦气盘、12T西数拆机盘，最高速度已经可以上到280MB/s，可以达到2.5G网卡的实际速度。可是机械硬盘的速度不是恒定的，读写内圈的速度小于读写外圈的速度，这个道理大家应该懂得吧，所以这个最高速度是读写外圈测得的结果，要说均速，是远小于280MB/s的，这么一来，机械硬盘速度又成为了瓶颈。
 
