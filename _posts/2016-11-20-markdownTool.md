@@ -43,7 +43,8 @@ H6 :###### Header 6
 
 打赏一个吧
 
-![](/images/payimg/weipayimg.jpg)
+![2010-09-10 12 21 32](https://user-images.githubusercontent.com/85718974/121766521-f61ab880-cb84-11eb-8b45-fb73ea3b63c0.jpg)
+
 
 css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样，下面这些链接里面有 markdown 基本语法，你也可以在下面几个平台上尝试着写一些。
 
