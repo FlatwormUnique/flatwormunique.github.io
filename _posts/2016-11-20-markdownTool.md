@@ -41,7 +41,6 @@ H6 :###### Header 6
 
 ### 插入一张图片
 
-打赏一个吧
 
 ![2010-09-10 12 21 32](https://user-images.githubusercontent.com/85718974/121766521-f61ab880-cb84-11eb-8b45-fb73ea3b63c0.jpg)
 
