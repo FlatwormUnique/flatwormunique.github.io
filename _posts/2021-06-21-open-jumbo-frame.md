@@ -24,14 +24,18 @@ tag: 群晖 巨帧 2.5G网卡
 Windows设置→网络和Internet→以太网→更改适配器选项
 
 找到你的2.5G网卡对应的以太网连接，右键→属性→配置→高级，在高级页面属性框找到“巨型帧”，“值”设置成9014Bytes，点击确定，这个时候网络连接会断开重连一次就OK了。
+<img width="361" alt="win巨帧" src="https://user-images.githubusercontent.com/85718974/122720379-fd874380-d2a1-11eb-8bb5-15073c8d6c8e.png">
+
 
 ## 群晖
 
 控制面板→网络→网络界面→选取2.5G网卡对应的“局域网”连接→编辑→勾上手动设置MTU值→下拉菜单选择9000→确定保存
 
 群晖也会提示会断开重连，之后就搞定了。
+<img width="589" alt="群晖巨帧" src="https://user-images.githubusercontent.com/85718974/122720401-0546e800-d2a2-11eb-8b00-c00fcdcc1f5d.png">
 
 ## 测试效果
+<img width="337" alt="打开巨帧后的效果" src="https://user-images.githubusercontent.com/85718974/122720406-0841d880-d2a2-11eb-8255-703f9bad0bb7.png">
 
 
 
