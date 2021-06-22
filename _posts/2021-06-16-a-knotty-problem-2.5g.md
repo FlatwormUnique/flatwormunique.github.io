@@ -28,8 +28,10 @@ a.重启后开关一次驱动套件即可识别
 b.彻底解决这个问题还得配置一下“任务计划”，让群晖每次开机都执行挂载网卡的任务。
 
 #### 3.装好驱动后，2.5G访问不了，原有千兆网登录上去发现驱动启动了却没有分配IPV4地址？
-这种情况是一位客户反馈，其机型为DS218+，上级路由为AC86U，如图所示，驱动已经启动，分配到了IPV6地址，没有分配IPV4地址。这种情况手动配置IPV4地址即可解决。
+这种情况是一位客户反馈，其机型为DS218+，上级路由为AC86U，如图所示，驱动已经启动，分配到了IPV6地址，没有分配IPV4地址（DHCP为否）。
 <img width="1058" alt="none-ipv4-2" src="https://user-images.githubusercontent.com/85718974/122928467-7b2f7a00-d39c-11eb-8f9d-ee49797fff4d.png">
+这种情况手动配置IPV4地址或者自动取得网络设置（DHCP）即可解决。
+<img width="233" alt="open-dhcp" src="https://user-images.githubusercontent.com/85718974/122929320-630c2a80-d39d-11eb-8a5c-0a433b9badc6.png">
 
 ### D：其他系统
 
