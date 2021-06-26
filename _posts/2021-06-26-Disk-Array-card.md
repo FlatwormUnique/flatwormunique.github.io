@@ -1,7 +1,7 @@
 ---
-layout:post
-title:“关于蜗牛星际的背板和阵列卡的小tips”
-tag:蜗牛星际 背板 阵列卡
+layout: post
+title: “关于蜗牛星际的背板和阵列卡的小tips”
+tag: 蜗牛星际 背板 阵列卡
 ---
 
 # 前言
