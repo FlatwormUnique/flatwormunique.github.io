@@ -18,7 +18,7 @@ tag: 威联通 2.5G网卡 驱动 RTL8156
 
 下载驱动：[RTL8156(include B) driver for QTS4.5.zip](https://github.com/FlatwormUnique/flatwormunique.github.io/blob/master/download/RTL8156(include%20B)%20driver%20for%20QTS4.5.zip)
 
-下载工具软件：[Winscp](https://dl.gxnas.com:1443/黑群晖/工具/WinSCP_5.11.1（进入群晖SSH对文件进行操作）.rar)
+下载工具软件：[Winscp](https://pan.chiphello.com:40272/黑群晖/WinSCP-5.17.10-Setup.exe)
 
 # 安装驱动
 
