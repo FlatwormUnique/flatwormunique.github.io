@@ -34,7 +34,7 @@ Linux、MacOS无需操作
 
 Windows系统：Windows设置→应用→应用和功能→可选功能→添加功能→添加Openssh服务
 
-## 3.SHH登录威联通
+### 3.SHH登录威联通
 
 MacOS、Linux系统可以直接使用“终端”
 
@@ -73,11 +73,11 @@ sudo -i
 
   这时网卡应该已经认出来了。
 
-### 5.设置开机自动加载驱动
+## 二.设置开机自动加载驱动
 
 开机自动加载需要手动编辑一个autorun.sh文件
 
-#### a. 新建autorun.sh文件
+### a. 新建autorun.sh文件
 
 用Winscp连接到NAS， 在tmp/config目录里新建一个autorun.sh文件
 
@@ -87,7 +87,7 @@ mount $(/sbin/hal_app --get_boot_pd port_id=0)6 /tmp/config
 
 然后把上面的代码复制到autorun.sh里面
 
-#### b. 修改权限
+### b. 修改权限
 
 SSH连上NAS，依次输入如下命令：
 
@@ -96,12 +96,12 @@ chmod +x /tmp/config/autorun.sh
 umount /tmp/config
 ```
 
-#### c. 最后一步
+### c. 最后一步
 
 打开NAS网页管理界面，找到 控制台→硬件→启动时运行用户定义的进程打勾→重启NAS。
 
 重启后找到 网络&文件服务→网络与虚拟交换机→网络适配器，如果多了一个2.5G网口，就成功啦。
 
 
-
-[扩展阅读：其他非intel&amd机型如何建立autorun.sh ](https://wiki.qnap.com/wiki/Running_Your_Own_Application_at_Startup)
+# 扩展阅读
+[其他非intel&amd机型如何建立autorun.sh ](https://wiki.qnap.com/wiki/Running_Your_Own_Application_at_Startup)
