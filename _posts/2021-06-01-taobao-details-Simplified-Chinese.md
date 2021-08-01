@@ -42,7 +42,7 @@ tag: 淘宝
 
 # 购买必读3-您关心的问题
 
-1.  Q：这个网卡热吗？会断流吗？ 
+Q：这个网卡热吗？会断流吗？ 
 
     **有点热但不会断**！ RTL8156B主控芯片是40nm工艺，因为数据吞吐量比起千兆翻倍了，发热量比千兆的RTL8153芯片肯定要大一些。现在正值长沙夏天，从我测试了40天的经验来看，常温下长时间使用是稳的。
 <img width="812" alt="运行40天" src="https://user-images.githubusercontent.com/85718974/127775115-e3eb72a5-09d1-41dc-bdbe-ff281af7ad21.png">
@@ -50,7 +50,9 @@ tag: 淘宝
     我们可以动点小脑筋、弄点小手段，做点小手工来帮助网卡降温（需要极客进度条75%）。*在聊天窗口输入“USB网卡降温”，推送相关资料。*
     
     或者，您可以选购我们为了克服发热问题设计的新款2.5G网卡（逸流版）。
-    ![FP004474](https://user-images.githubusercontent.com/85718974/127775138-0e4e8cea-9e59-4d6c-8a6d-94df4d5572fd.jpg)
+    
+<img width="812" alt="逸流版" src="https://user-images.githubusercontent.com/85718974/127775171-cab97e7f-2209-4109-ab6d-7df8b1b9e982.jpg">
+
 
 
 # 关于“只换不修”
