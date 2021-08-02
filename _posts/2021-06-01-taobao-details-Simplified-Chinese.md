@@ -78,19 +78,22 @@ Q：这个网卡热吗？会断流吗？
 
 ## 不同型号的差异
 
-(此处插入表格)
+<img width="565" alt="2 5g网卡比较" src="https://user-images.githubusercontent.com/85718974/127815667-678e12d0-3a06-47a9-8a66-768dcd71f7b5.png">
 
 其中标准版A款，确实是@司波图 在2021.6.16日的B站视频中提到的同款，有些小伙伴问到了我在这里统一说明一下，司老师的视频做得很不错，关于2.5G他出过很多期视频，希望小伙伴们看了他的优质视频后给予点赞支持哦。
 
-司波图视频截图
+<img width="898" alt="司波图2 5g网卡" src="https://user-images.githubusercontent.com/85718974/127815707-9a526a73-53ff-4d89-9294-ab46bba2b7ea.png">
+
 
 其中TypeC的灰色款是海外市场FOX**的尾单，从下面这张图可以看到很多信息，我不便说明，你只需知道，这个卡过了FCC、CE认证，质量是出口等级就好。
 
-foxmm 美亚截图
+<img width="1123" alt="amazon 比较" src="https://user-images.githubusercontent.com/85718974/127815759-5a69b0ed-f39b-4acb-b637-bc646b5c4926.png">
 
 # 关于实际速度的原理解释
 
 首先我们要了解一个关键数据：2.5G网卡的理论速度是2500Mbps，也是就是312MB/s，各种损耗之后的实际速度一般不会超过280MB/s（打开巨帧后可达290MB/s）。
 
 如果您的网卡在驱动正常的情况下，达不到上述实际速度，可以通过这个链接找找原因。
+
+https://flatworm-unique.chiphello.com/2021/06/about-the-speed-of-network-card/
 
