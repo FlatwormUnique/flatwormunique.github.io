@@ -89,3 +89,5 @@ A：**有點熱但不會斷**！ RTL8156B主控芯片是40nm工藝，因為數�
 首先我們要了解一個關鍵數據：2.5G網卡的理論速度是2500Mbps，也是就是312MB/s，各種損耗之後的實際速度一般不會超過280MB/s（打開巨幀後可達290MB/s）。
 
 如果您的網卡在驅動正常的情況下，達不到上述實際速度，可以通過這個鏈接找找原因。
+
+https://flatworm-unique.chiphello.com/2021/06/about-the-speed-of-network-card/
