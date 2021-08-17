@@ -15,6 +15,10 @@ tag: 群晖 网卡 2.5G 8156B 驱动
 ### A：Windows
 #### 1. Windows系统下，装好最新的驱动之后并没有发现新硬件？
 网卡在Windows系统下会识别出一个盘符，里面有个exe文件，点它即可。
+#### 2. 正确安装了盘符内的驱动，但是出现蓝屏、断流、速度跑不满等不限于这些问题！
+那是因为盘符内的驱动比较老，Win10、Win11用这个驱动有诸多问题，解决方法：去官网下载最新的驱动即可。
+官方链接：[https://www.realtek.com/zh-tw/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-usb-3-0-software](https://www.realtek.com/zh-tw/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-usb-3-0-software)
+备用下载：[https://pan.chiphello.com:40272/?dir=/%E9%A9%B1%E5%8A%A8/RTL8156](https://pan.chiphello.com:40272/?dir=/%E9%A9%B1%E5%8A%A8/RTL8156)
 ### B：MacOS
 #### 1.MAC系统下，重启后不识别网卡？
 目前由于驱动完善，有这个问题，在iMAC和新款M1的机器上复现了。解决办法暂时只能是插拔一次就ok。
