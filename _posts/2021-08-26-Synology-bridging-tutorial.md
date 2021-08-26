@@ -1,4 +1,3 @@
-<img width="650" alt="1" src="https://user-images.githubusercontent.com/85718974/130980182-06b5684f-5d9a-47e0-8cf9-e230368db411.png">
 ---
 layout: post
 title: "群晖系统桥接教程-省去一个2.5G交换机的钱钱"
