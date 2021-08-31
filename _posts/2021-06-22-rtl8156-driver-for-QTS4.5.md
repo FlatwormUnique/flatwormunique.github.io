@@ -40,10 +40,10 @@ MacOS、Linux系统可以直接使用“终端”
 
 Windows系统：cmd打开“命令提示符”
 
-输入ssh 你的威联通id@威联通局域网地址(举例用户名为niuniu、局域网地址为192.168.0.53)：
+输入ssh 你的威联通id@威联通局域网地址(举例用户名为hhjfm、局域网地址为192.168.1.107)：
 
 ```
-ssh niuniu@192.168.0.53
+ssh hhjfm@192.168.1.107
 ```
 
 回车之后输入威联通登录密码(输入的时候没有光标没有提示什么都没有不要以为是键盘坏了哦)
@@ -94,13 +94,23 @@ sudo -i
 
 ### a. 新建autorun.sh文件
 
-用Winscp连接到NAS， 在tmp/config目录里新建一个autorun.sh文件
+用Winscp连接到NAS，这里注意，**一定要用“admin”账户登录**。
+
+![wlt6](https://user-images.githubusercontent.com/85718974/131513259-a53c6402-8635-46e7-9342-169243b1cee2.jpg)
+
+在tmp/config目录里新建一个autorun.sh文件
+
+![wlt7](https://user-images.githubusercontent.com/85718974/131513800-9c815833-1224-470c-9cd2-1872f3d79b22.jpg)
+
 
 ```
 mount $(/sbin/hal_app --get_boot_pd port_id=0)6 /tmp/config
 ```
 
 然后把上面的代码复制到autorun.sh里面
+
+![wlt8](https://user-images.githubusercontent.com/85718974/131513863-53857ffb-2df9-4fd0-880e-f53d61a2fd24.jpg)
+
 
 ### b. 修改权限
 
