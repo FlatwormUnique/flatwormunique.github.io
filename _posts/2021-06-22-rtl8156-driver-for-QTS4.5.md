@@ -90,7 +90,7 @@ sudo -i
 
 ## 二.设置开机自动加载驱动
 
-开机自动加载需要手动编辑一个autorun.sh文件
+前面我们已经成功让机器识别了RTL8156B网卡，但是重启后就没了，我们需要需要手动编辑一个开机自动加载驱动的autorun.sh文件。
 
 ### a. 新建autorun.sh文件
 
@@ -128,9 +128,9 @@ umount /tmp/config
 重启后找到 网络&文件服务→网络与虚拟交换机→网络适配器，如果多了一个2.5G网口，就成功啦。
 
 # 后记
-此教程感谢@minlang112  @19x0的驱动编译
+感谢@minlang112编译的驱动
 
-此教程感谢@hhjfm的测试
+感谢@hhjfm的测试
 
 # 扩展阅读
 [其他非intel&amd机型如何建立autorun.sh ](https://wiki.qnap.com/wiki/Running_Your_Own_Application_at_Startup)
