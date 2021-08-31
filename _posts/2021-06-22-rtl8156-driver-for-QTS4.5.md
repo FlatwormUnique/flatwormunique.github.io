@@ -58,7 +58,7 @@ sudo -i
 
 ![wlt1](https://user-images.githubusercontent.com/85718974/131508142-d03bd67e-9e3a-44ad-89cf-518107824379.jpg)
 
-按“Q”退出这个框框。
+按“Q”退出这个框框，再次输入”Y“确认退出。
 
 ### 4.解压并导入
 
@@ -75,11 +75,11 @@ sudo -i
 接下来在SSH中依次输入以下命令，输入一行回车一次。
 
  ```
- /sbin/rmmod r8152
- /sbin/rmmod usbnet
-  sleep 3
- /sbin/insmod /share/CACHEDEV4_DATA/（驱动所在文件夹名称）/usbnet.ko
- /sbin/insmod /share/CACHEDEV4_DATA/（驱动所在文件夹名称）/r8152.ko
+/sbin/rmmod r8152
+/sbin/rmmod usbnet
+sleep 3
+/sbin/insmod /share/CACHEDEV1_DATA/data/usbnet.ko
+/sbin/insmod /share/CACHEDEV1_DATA/data/r8152.ko
  ```
 ![wlt4](https://user-images.githubusercontent.com/85718974/131510197-0bc21c33-8d2f-49df-ba17-0622b51b5c87.jpg)
 
