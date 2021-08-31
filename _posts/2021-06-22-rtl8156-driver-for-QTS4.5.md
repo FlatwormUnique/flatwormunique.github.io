@@ -54,15 +54,26 @@ ssh niuniu@192.168.0.53
 sudo -i
 ```
 
-回车之后再次输入威联通登录密码
+回车之后再次输入威联通登录密码，之后就获得下面的界面：
+
+![wlt1](https://user-images.githubusercontent.com/85718974/131508142-d03bd67e-9e3a-44ad-89cf-518107824379.jpg)
+
+按“Q”退出这个框框。
 
 ### 4.解压并导入
 
-将驱动ZIP文件解压得到usbnet.ko r8152.ko ，将这2个文件放到一个比较简单路径，方便等下使用。
+将之前下载的驱动ZIP文件解压得到 usbnet.ko 和 r8152.ko ，将这2个文件放到一个比较简单路径，方便等下使用。
 
-依次输入以下命令，输入一行回车一次。
+用Winscp连接到NAS，如下图可以看到，左侧是本地路径，右侧是威联通的路径，威联通的根目录下有个“share”文件夹，里面可以看到CACHEDEV1_DATA和CACHEDEV2_DATA这2个存储池，这里因机而异。
 
-重要！注意！以下命令中出现的“CACHEDEV4_DATA”字段，其中的V4要根据您的硬盘盘符来的，不一定您的就是V4,您放到哪儿了，就换成相应的硬盘编号。
+![wlt2](https://user-images.githubusercontent.com/85718974/131508540-24a8907e-39b1-4255-b844-e11f82d320e4.jpg)
+
+我们现在要做的，就是把 usbnet.ko 和 r8152.ko两个文件放入任意一个存储池中，我这里是放到了CACHEDEV1_DATA的根目录下。
+
+![wlt3](https://user-images.githubusercontent.com/85718974/131509722-4882b294-76e4-416b-ae4f-1f5ddbd3e656.jpg)
+
+接下来在SSH中依次输入以下命令，输入一行回车一次。
+
  ```
  /sbin/rmmod r8152
  /sbin/rmmod usbnet
@@ -70,8 +81,12 @@ sudo -i
  /sbin/insmod /share/CACHEDEV4_DATA/（驱动所在文件夹名称）/usbnet.ko
  /sbin/insmod /share/CACHEDEV4_DATA/（驱动所在文件夹名称）/r8152.ko
  ```
+![wlt4](https://user-images.githubusercontent.com/85718974/131510197-0bc21c33-8d2f-49df-ba17-0622b51b5c87.jpg)
 
-  这时网卡应该已经认出来了。
+这时网卡应该已经认出来了。
+
+![wlt5](https://user-images.githubusercontent.com/85718974/131510264-9f5d8be5-a345-4d88-809b-ff911b1f6f04.jpg)
+
 
 ## 二.设置开机自动加载驱动
 
@@ -102,6 +117,6 @@ umount /tmp/config
 
 重启后找到 网络&文件服务→网络与虚拟交换机→网络适配器，如果多了一个2.5G网口，就成功啦。
 
-
+# 此教程感谢@hhjfm的帮助
 # 扩展阅读
 [其他非intel&amd机型如何建立autorun.sh ](https://wiki.qnap.com/wiki/Running_Your_Own_Application_at_Startup)
