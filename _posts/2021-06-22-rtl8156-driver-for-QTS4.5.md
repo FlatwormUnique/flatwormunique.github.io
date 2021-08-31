@@ -105,12 +105,14 @@ sudo -i
 
 ```
 mount $(/sbin/hal_app --get_boot_pd port_id=0)6 /tmp/config
+/sbin/rmmod r8152
+/sbin/rmmod usbnet
+sleep 3
+/sbin/insmod /share/CACHEDEV1_DATA/data/usbnet.ko
+/sbin/insmod /share/CACHEDEV1_DATA/data/r8152.ko
 ```
 
 然后把上面的代码复制到autorun.sh里面
-
-![wlt8](https://user-images.githubusercontent.com/85718974/131513863-53857ffb-2df9-4fd0-880e-f53d61a2fd24.jpg)
-
 
 ### b. 修改权限
 
@@ -123,9 +125,11 @@ umount /tmp/config
 
 ### c. 最后一步
 
-打开NAS网页管理界面，找到 控制台→硬件→启动时运行用户定义的进程打勾→重启NAS。
+打开NAS网页管理界面，找到 控制台→硬件→启动时运行用户定义的进程打勾。
 
-重启后找到 网络&文件服务→网络与虚拟交换机→网络适配器，如果多了一个2.5G网口，就成功啦。
+![wlt9](https://user-images.githubusercontent.com/85718974/131521364-d2cafb97-508f-4bdd-9a1d-ddd851a815a7.jpg)
+
+重启即成功啦！
 
 # 后记
 感谢@minlang112编译的驱动
