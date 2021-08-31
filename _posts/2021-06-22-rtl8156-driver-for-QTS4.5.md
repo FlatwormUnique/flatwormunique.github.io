@@ -117,6 +117,10 @@ umount /tmp/config
 
 重启后找到 网络&文件服务→网络与虚拟交换机→网络适配器，如果多了一个2.5G网口，就成功啦。
 
-# 此教程感谢@hhjfm的帮助
+# 后记
+此教程感谢@19x0的驱动编译
+
+此教程感谢@hhjfm的测试
+
 # 扩展阅读
 [其他非intel&amd机型如何建立autorun.sh ](https://wiki.qnap.com/wiki/Running_Your_Own_Application_at_Startup)
