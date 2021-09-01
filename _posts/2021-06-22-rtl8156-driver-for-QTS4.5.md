@@ -123,13 +123,18 @@ chmod +x /tmp/config/autorun.sh
 umount /tmp/config
 ```
 
-### c. 最后一步
+### c. 启动时运行用户定义的进程
 
 打开NAS网页管理界面，找到 控制台→硬件→启动时运行用户定义的进程打勾。
 
 ![wlt9](https://user-images.githubusercontent.com/85718974/131521364-d2cafb97-508f-4bdd-9a1d-ddd851a815a7.jpg)
 
 重启即成功啦！
+
+### d. 最后一步
+至此，设定全部完成，重启后大概率就成功了，可是我要提醒您记得关闭SSH，NAS的安全和稳定大于一切！
+
+**控制台-网络&文件服务-Telnet&SSH，关闭SSH**
 
 # 后记
 感谢@minlang112编译的驱动
