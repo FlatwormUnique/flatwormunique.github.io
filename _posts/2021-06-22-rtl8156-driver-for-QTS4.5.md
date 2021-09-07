@@ -28,7 +28,7 @@ tag: 威联通 2.5G网卡 驱动 RTL8156
 
 在NAS网页管理界面，控制台-网络&文件服务-Telnet&SSH，打开SSH。
 
-### 2.开启电脑的SHH服务
+### 2.开启电脑的SSH服务
 
 Linux、MacOS无需操作
 
