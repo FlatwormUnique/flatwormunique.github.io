@@ -52,6 +52,10 @@ tag: 群晖 网卡 2.5G 8156B 驱动
 /usr/syno/bin/synopkg restart r8152
 ```
 
+```
+ssh huahua@192.168.1.129
+```
+
 #### 3.装好驱动后，2.5G访问不了，原有千兆网登录上去发现驱动启动了却没有分配IPV4地址？
 这种情况是一位客户反馈，其机型为DS218+，上级路由为AC86U，如图所示，驱动已经启动，分配到了IPV6地址，没有分配IPV4地址（DHCP为否）。
 <img width="1058" alt="none-ipv4-2" src="https://user-images.githubusercontent.com/85718974/122928467-7b2f7a00-d39c-11eb-8f9d-ee49797fff4d.png">
