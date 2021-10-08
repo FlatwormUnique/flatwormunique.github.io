@@ -69,7 +69,9 @@ tag: 群晖 网卡 2.5G 8156B 驱动
 #### 不识别USB设备
 有些蜗牛的主板，因为主板电池没电或者其他原因断电后会复位BIOS设置，具体原理不得而知，但是修改一个选项即可。
 开机后不停按Del键即可进入BIOS（蓝牙无线键盘无法实现），然后进入“Advanced”条目，再进入“Miscellaneous Configuration”选项，
-
+![111](https://user-images.githubusercontent.com/85718974/136494917-d1231129-3fda-45e7-814c-6999e076b74d.jpg)
 接下来修改“OS Selection”的值为“Windows 8.X”。
+![222](https://user-images.githubusercontent.com/85718974/136494935-e6a11fd6-8f8d-4ab8-b899-0726a1077d7d.jpg)
 
 感谢@jroky0贡献经验，更新于2021.10.07
+
