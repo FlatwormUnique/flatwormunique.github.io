@@ -102,14 +102,9 @@ BL 解锁后赋予用户更多权限，可以自由刷第三方 ROM 和 Recovery
 
 #### 刷机操作步骤
 
-1. 先将手机关机（建议先退出小米账号），长按`音量下键 + 开机键`进入 Fastboot 模式，用数据线连接到电脑。
-![mi-phone-fastboot](https://user-images.githubusercontent.com/85718974/151985309-e0c84dfa-b85f-47c5-94e9-879f3df52491.png)
-
-2. 在之前解压的线刷工具文件夹里找到 `XiaoMiFlash.exe` 双击运行，软件界面点击“选择”按钮，选中解压的线刷包文件夹。
-![miflash-1](https://user-images.githubusercontent.com/85718974/151985251-acf9f07b-3ce8-4f34-bfb1-a30480952ea4.png)
-
+1. 先将手机关机（建议先退出小米账号），长按`音量下键 + 开机键`进入 Fastboot 模式，用数据线连接到电脑。![mi-phone-fastboot](https://user-images.githubusercontent.com/85718974/151985309-e0c84dfa-b85f-47c5-94e9-879f3df52491.png)
+2. 在之前解压的线刷工具文件夹里找到 `XiaoMiFlash.exe` 双击运行，软件界面点击“选择”按钮，选中解压的线刷包文件夹。![miflash-1](https://user-images.githubusercontent.com/85718974/151985251-acf9f07b-3ce8-4f34-bfb1-a30480952ea4.png)
 3. 这步是可选项，但强烈建议在线刷工具右下角选中“全部删除”模式，待之后确认刷机正常后再选“全部删除并lock”重新刷一遍（也可以不lock重刷。是否lock的区别是锁不锁BL，不锁后面刷机会方便一些，不用重新解锁，锁的话会提升安全性，但以后刷机要重新申请解锁才可以）。
-
 之所以这样做是为降低刷机风险。如果后面刷机遇到意外问题，想要重新刷因为之前已默认 BL 上锁，刷机又要重新 BL 解锁。为避免这种情况，建议新手先选择不锁 BL 刷一遍，确认没问题后，再选择锁定 BL 重新刷入，这样比较稳妥。
 
 注1：如果刷的是海外版 MIUI 系统，因为 BL 增加了区域限制检查，切记不要加 BL 锁刷机，不然启动不了系统。国内版系统则可以加 BL 锁。
