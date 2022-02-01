@@ -32,7 +32,7 @@ tags: 2.5g 网卡 测速 排查
 这种问题就是插上去没反应，或者有点什么反应，但是网卡并没有出现
 ## 没有安装驱动
 尤其请使用Windows系统的用户注意，一定要安装驱动，说Windows免驱的都是不负责任的。
-请参考资料：[https://flatworm-unique.chiphello.com/2021/06/usb2.5g-installation-instruction/](https://flatworm-unique.chiphello.com/2021/06/usb2.5g-installation-instruction/)
+请参考资料：[https://fu.chiphello.com/2021/06/usb2.5g-installation-instruction/](https://fu.chiphello.com/2021/06/usb2.5g-installation-instruction/)
 
 
 # 二.识别成千兆或者百兆网卡
@@ -76,7 +76,7 @@ USB3.0接口的理论速度是5Gbps，由于USB3.0是8b/10b编码也就是说每
 
 方案a：目前最便宜的非网管型2.5G交换机，TP-Link SH1005 和 SH1008 。
 
-方案b：在有NAS情况下，把电脑的2.5G和NAS的2.5G口直连，然后在NAS上，把2.5G端口和本身的千兆口做桥接，让电脑通过NAS上到广域网，同时也有了内网2.5G的速度，参考[群晖桥接教程](https://flatworm-unique.chiphello.com/2021/08/Synology-bridging-tutorial/)。
+方案b：在有NAS情况下，把电脑的2.5G和NAS的2.5G口直连，然后在NAS上，把2.5G端口和本身的千兆口做桥接，让电脑通过NAS上到广域网，同时也有了内网2.5G的速度，参考[群晖桥接教程](https://fu.chiphello.com/2021/08/Synology-bridging-tutorial/)。
 
 ## 驱动BUG
 经客户反映，在某些群晖的机器上出现了最新版本的驱动不正常的情况，安装上一个版本的驱动就好啦。
@@ -86,7 +86,7 @@ USB3.0接口的理论速度是5Gbps，由于USB3.0是8b/10b编码也就是说每
 这里的使用异常不是指速度上不去，这个之后再说。这里的异常指蓝屏、死机、断流、掉驱动等故障。
 处理方法：
 ## 如果是Win系统
-请参照[https://flatworm-unique.chiphello.com/2021/06/usb2.5g-installation-instruction/](https://flatworm-unique.chiphello.com/2021/06/usb2.5g-installation-instruction/) 安装驱动。
+请参照[https://fu.chiphello.com/2021/06/usb2.5g-installation-instruction/](https://fu.chiphello.com/2021/06/usb2.5g-installation-instruction/) 安装驱动。
 ## 如果是群晖
 请安装上一版本驱动。
 ## 如果问题依旧
