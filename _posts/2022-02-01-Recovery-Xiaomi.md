@@ -1,3 +1,11 @@
+---
+layout: post
+title: "小米手机刷机步骤（备忘）"
+date: 2022-02-01 
+description: ""
+tag: 小米 刷机 Recovery
+---
+
 ## 前言
 
 我的忘性大，21年年初刷机了小米手机到国际版后，感觉用得挺不错的，就打算把岳母的红米NOTE 8也刷掉。具体操作时已经懵了，完全不记得当时的怎么操作的。于是我又重新找方法学习了一遍。为了避免之后再浪费时间找方法，我决定留个脚印，记录一个只需要我回来5分钟就能掌握的方法。
@@ -96,15 +104,11 @@ BL 解锁后赋予用户更多权限，可以自由刷第三方 ROM 和 Recovery
 
 1. 先将手机关机（建议先退出小米账号），长按`音量下键 + 开机键`进入 Fastboot 模式，用数据线连接到电脑。
 
-[![小米手机 Fastboot 模式界面](https://miuiver.com/wp-content/uploads/2021/01/mi-phone-fastboot.png)](https://miuiver.com/wp-content/uploads/2021/01/mi-phone-fastboot.png)
-
-小米手机 Fastboot 模式界面
+![mi-phone-fastboot](https://user-images.githubusercontent.com/85718974/151985309-e0c84dfa-b85f-47c5-94e9-879f3df52491.png)
 
 2. 在之前解压的线刷工具文件夹里找到 `XiaoMiFlash.exe` 双击运行，软件界面点击“选择”按钮，选中解压的线刷包文件夹。
 
-[![选择解压的线刷包文件夹](https://miuiver.com/wp-content/uploads/2021/01/miflash-1.png)](https://miuiver.com/wp-content/uploads/2021/01/miflash-1.png)
-
-选择解压的线刷包文件夹
+![miflash-1](https://user-images.githubusercontent.com/85718974/151985251-acf9f07b-3ce8-4f34-bfb1-a30480952ea4.png)
 
 3. 这步是可选项，但强烈建议在线刷工具右下角选中“全部删除”模式，待之后确认刷机正常后再选“全部删除并lock”重新刷一遍（也可以不lock重刷。是否lock的区别是锁不锁BL，不锁后面刷机会方便一些，不用重新解锁，锁的话会提升安全性，但以后刷机要重新申请解锁才可以）。
 
@@ -114,15 +118,14 @@ BL 解锁后赋予用户更多权限，可以自由刷第三方 ROM 和 Recovery
 
 注2：虽然 MiFlash 有保留用户数据刷机模式，但有时可能遇到刷完后某些应用不可用（如相册），建议最好手动备份数据，不要依赖这个功能。
 
-[![选择刷机模式（是否在刷机时锁定 BL 锁）](https://miuiver.com/wp-content/uploads/2021/01/miflash-2.png)](https://miuiver.com/wp-content/uploads/2021/01/miflash-2.png)
-
-选择刷机模式（是否在刷机时锁定 BL 锁）
+![miflash-2](https://user-images.githubusercontent.com/85718974/151985419-c9ee545c-9ddf-440a-b30a-fd26dcca02df.png)
 
 4. 点击“加载设备”，识别到手机设备后就可以点击刷机，刷机过程大概等待七八分钟，完成后手机会自动重启进入系统。
 
-[![加载设备后点击开始刷机](https://miuiver.com/wp-content/uploads/2021/01/miflash-4.png)](https://miuiver.com/wp-content/uploads/2021/01/miflash-4.png)
+![miflash-4](https://user-images.githubusercontent.com/85718974/151985486-a7609b49-a6c7-40fc-abd0-0be8d7b8fa27.png)
 
 点击刷机后等待数分钟，完成后手机会自动重启进入系统（有时线刷工具可能没有显示结果，只要手机正常重启进入系统初始化界面就行）
+
 
 
 
