@@ -95,5 +95,5 @@ A：有点热但不会断！ RTL8156B主控芯片是40nm工艺，因为数据吞
 
 如果您的网卡在驱动正常的情况下，达不到上述实际速度，可以通过这个链接找找原因。
 
-https://flatworm-unique.chiphello.com/2021/06/about-the-speed-of-network-card/
+https://fu.chiphello.com/2021/06/about-the-speed-of-network-card/
 
