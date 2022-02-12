@@ -1,19 +1,17 @@
 ---
 layout: page
-title: 关于 
+title: 關於 
 ---
-​		Flatworm-海扁虫 6亿年前海洋里出现的一种优雅的生物,是蓝星上第一种拥有左右对称结构、出现神经系统的掠食者，如今由它进化出的奇特生命遍布这颗星球。
+​		Flatworm-海扁蟲 6億年前海洋里出現的一種優雅的生物,是藍星上第一種擁有左右對稱結構、出現神經系統的掠食者，如今由它進化出的奇特生命遍布這顆星球。
 
-​		Flatworm Unique 象征着为了独特需求进化自己的装备的个性的玩家群体。
+​		Flatworm Unique 象徵着為了獨特需求進化自己的裝備的個性的玩家群體。
 
-​		这里是 玩物进化论 的指引站。
+​		這裡是 玩物進化論 的指引站。
 
-#### 感谢   
+#### 感謝   
 
-本站在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改
+本站在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基礎上修改
 
-本站模板来源[leopardpan](https://leopardpan.cn/)
+本站模板來源[leopardpan](https://leopardpan.cn/)
 
-本站空间由Github提供
-
-
+本站空間由Github提供
